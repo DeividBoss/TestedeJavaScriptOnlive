@@ -1,0 +1,17 @@
+{
+	"name": "AutoRefresh",
+	"comment": "The NAME property is used in Reporting to reference the JavaScript files contained in this extension. It also appears in the Extensions tab of the Customization panel under Manage",
+	"schemaVersion": "1.0",	
+	"extensions": [
+		{
+			"perspective": "common",
+			"comment": "There is a special meta perspective called COMMON. Adding contributions to this perspective will cause the extension to be applied to ALL perspectives.",						
+			"features": [
+				{
+					"id" : "AutoRefresh",
+					"comment": "The ID property helps you identify the name of the JS file that the extension is using."					
+				}
+			]
+		}
+	]
+}
